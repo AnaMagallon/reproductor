@@ -1,0 +1,29 @@
+/* Estilos para la barra inferior*/
+
+/* Imagen dentro del footer, con un tamaño fijo*/
+footer img {
+    height: 60px;
+    width: 60px;
+}
+
+/* Línea que separa el contenido anterior del footer, margin auto para centrarla*/
+.barra-separacion{
+    width: 100%;
+    height: 2px;
+    background-color: #dddddd;
+    border-radius: 4px;
+    overflow: hidden; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contenedor de los iconos, se emplean estos valores de display, justify-content y align-items para que se distribuyan a lo ancho 
+y se centren, margin auto para centrarla*/
+.barra-inferior{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

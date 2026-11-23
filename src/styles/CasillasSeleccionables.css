@@ -1,0 +1,26 @@
+/* Estilo para el contenedor de las casillas, usa display flex y justify-content space-around para colocar las dos columnas repartidas y centradas */
+.casillas {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Cada columna apila sus tres casillas en vertical mediante flex-direction column y deja espacio entre elementos con gap */
+.columna-casillas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Alinea cada checkbox con su texto descriptivo en horizontal con un pequeño espacio (gap) */
+.columna-casillas label {
+    display: flex;  
+    gap: 8px;
+    color: #333;
+}
+
+/* Color de relleno de las casillas marcadas e indeterminadas */
+.columna-casillas input[type="checkbox"] {
+    accent-color: #222222; 
+}

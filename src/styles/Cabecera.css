@@ -1,0 +1,9 @@
+/* Estilo para el h1 dentro del header, color negro */
+header h1{
+    color: black;
+} 
+
+/* Estilo para el h2 dentro del header, color gris */
+header h2{
+    color: rgb(153, 153, 153);
+}

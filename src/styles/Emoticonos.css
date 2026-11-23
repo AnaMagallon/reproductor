@@ -1,0 +1,30 @@
+/* Contenedor principal del carrusel de emoticonos, usa display flex, align-items center y justify-content center para alinear 
+todos los emojis en horizontal, margin auto para centrarlo */
+.emoticonos{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+
+/* Tamaño fijo para los emoticonos no seleccionados */
+.emoticonos p {
+    font-size: 25px;
+}
+
+/* Cuadro que destaca el emoticono central con un borde negro, mayor altura y centrado interior con display flex */
+.emoticono-seleccionado{
+    border-radius: 4px;
+    border: 1px solid black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tamaño para el emoticono destacado */
+.emoticono-seleccionado p {
+    font-size: 35px;
+}

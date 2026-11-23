@@ -1,0 +1,18 @@
+/* Contenedor raíz de la aplicación, limita el ancho máximo a 550px, lo centra con margin auto y añade bordes laterales */
+#root {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  min-height: 100vh;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+/* Contenedor principal de los componentes, usa display flex, flex-direction column y gap para apilar todas las secciones en vertical con separación */
+.app{
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}

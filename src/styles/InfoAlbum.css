@@ -1,0 +1,33 @@
+/* Contenedor principal de la información del álbum, usa display flex, align-items center y gap para colocar la imagen junto a los bloques de texto */
+.info-album{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 20px;
+}
+
+/* Tamañi fijo para la imagen */
+.imagen-album{
+    width: 150px;
+    height: 150px;
+}
+
+/* Contenedor de las líneas simuladas, usa flex 1 para ocupar el espacio restante y flex-direction column para apilarlas en vertical con espacio (gap) */
+.texto-simulado{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estilo para cada bloque rectangular gris que simula una línea de texto descriptivo */
+.texto{
+    height: 20px;
+    background-color: #d1d5db;
+}
+
+/* Distintos anchos para simular textos de distintas longitudes */
+.texto-80{width: 80%;}
+.texto-60{width: 60%;}
+.texto-90{width: 90%;}
+.texto-70{width: 70%;}
